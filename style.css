@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: bisque;
+    color: rgb(84, 87, 84);
+    background-color: white;
+    font-size: 16px;
+    font-family:'Oswald', sans-serif;
+}
+
+a {
+    color: rgb(74, 80, 130);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Parte 1 */
+.nav-main {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 70px 0;
+}
+
+.nav-brand {
+    width: 300px;
+}
+
+/* CABECERA PRINCIPAL */
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 10px;
+}
+
+.nav-main ul li a {
+    padding: 3px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom:2px solid rgb(74, 80, 130)
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 600px;
+}
+
+.hr {
+    margin: 10px 0;
+}
+ /* IMAGEN PORTADA */
+.portada {
+    width: 105%;
+    height: 1100px;
+    background: url(IMAGENES/portada.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: rgb(59, 35, 3);
+} 
